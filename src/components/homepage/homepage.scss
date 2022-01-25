@@ -1,0 +1,39 @@
+.homepage {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    a{
+      text-decoration: none;
+    }
+}
+.userInfo {
+  text-align: center;
+  .name{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .bio{
+    font-weight: 400;
+  }
+}
+img {
+  width: 100%;
+}
+.repo {
+  font-size: 25px;
+  font-weight: 700;
+}
+.elementRepo{
+    margin-bottom: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2px 5px;
+}
+.elementRepo:hover{
+  background-color: #e2c044;
+  border-radius: 5px;
+}
+
