@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./search.scss"
 import { Col, Container, Row } from "react-bootstrap";
 
-// token = "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"
+// token = "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"
 class Search extends React.Component {
     constructor() {
         super()

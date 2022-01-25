@@ -17,7 +17,7 @@ class Homepage extends React.Component {
     fetchData = () => {
 
         const headers = {
-            'Authorization': `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`
+            'Authorization': `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`
 
         };
         axios.get("https://api.github.com/users/stefanstefanovic94", { headers })
@@ -32,7 +32,7 @@ class Homepage extends React.Component {
 
     fetchRepo = () => {
         const headers = {
-            'Authorization': `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`
+            'Authorization': `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`
 
         };
 
